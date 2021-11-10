@@ -4,13 +4,13 @@ class mathalg {
   }
 
   sum() {
-    let total_sum = 0;
-    for (let i = 0; i < this.arr.length; i++) {
-      total_sum += this.arr[i];
-    }
-    return total_sum;
+//     let total_sum = 0;
+//     for (let i = 0; i < this.arr.length; i++) {
+//       total_sum += this.arr[i];
+//     }
+//     return total_sum;
 
-    // return this.arr.reduce((a, b) => a + b, 0);
+    return this.arr.reduce((a, b) => a + b, 0);
   }
 }
 
